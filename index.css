@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('./fira-code.woff2');
+}
+
+body {
+  display: flex;
+  background: #2a5b4a;
+  margin: 0;
+}
+
+.text {
+  font: 22px/1.5 'Fira Code';
+  margin: auto;
+  max-width: 640px;
+  color: #fff;
+  padding: 36px;
+}
+
+.graphic {
+  width: 50vw;
+  height: 100vh;
+}
+
+p {
+  margin: 22px 0;
+}
+
+a {
+  color: white;
+}
